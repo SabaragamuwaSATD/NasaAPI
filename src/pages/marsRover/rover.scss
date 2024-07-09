@@ -1,0 +1,79 @@
+.home {
+  display: flex;
+}
+
+.home .homeContainer {
+  flex: 6;
+}
+
+.home .homeContainer .title {
+  text-align: center;
+  color: #2c3e50;
+  margin: 20px 0;
+}
+
+.home .homeContainer .title h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.home .homeContainer .nasa-content {
+  color: gray;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.home .homeContainer .nasa-content img {
+  max-width: 50%;
+  height: auto;
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  margin-right: 15px;
+}
+
+.home .homeContainer .nasa-content .video {
+  width: 100%;
+  height: auto;
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+}
+
+.home .homeContainer .nasa-content .content-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+}
+
+.home .homeContainer .nasa-content .content-details h1 {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.home .homeContainer .nasa-content .content-details p {
+  margin-bottom: 15px;
+}
+
+.home .homeContainer .widgets,
+.home .homeContainer .charts {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.home .homeContainer .charts {
+  padding: 5px 20px;
+}
+
+.home .homeContainer .listContainer {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  margin: 20px;
+}
+
+.home .homeContainer .listContainer .listTitle {
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 15px;
+}
